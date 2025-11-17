@@ -1,0 +1,22 @@
+[workspace]
+authors = ["davidlange6 <David.Lange@cern.ch>", "pfackeldey <fackeldey.peter@gmail.com>"]
+channels = ["conda-forge"]
+name = "courses-hsf-india-Nov2025-python"
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[tasks.start]
+cmd = "jupyter lab"
+
+[dependencies]
+python = "==3.12"
+jupyterlab = ">=4.4.10,<5"
+jupyterlab-deck = "==0.2.0"
+jupyterlab-mathjax3 = ">=4.3.0,<5"
+matplotlib = ">=3.10.8,<4"
+
+
+[pypi-dependencies]
+evermore = ">=0.4.0, <0.5"
+optimistix = ">=0.0.11, <0.0.12"
+treescope = ">=0.1.10, <0.2"
