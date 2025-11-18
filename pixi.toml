@@ -1,7 +1,7 @@
 [workspace]
-authors = ["davidlange6 <David.Lange@cern.ch>", "pfackeldey <fackeldey.peter@gmail.com>"]
+authors = ["pfackeldey <fackeldey.peter@gmail.com>"]
 channels = ["conda-forge"]
-name = "courses-hsf-india-Nov2025-python"
+name = "analysis-systems-18Nov2025-evermore"
 platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
